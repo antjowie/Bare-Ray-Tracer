@@ -1,0 +1,49 @@
+{
+    "scene": {
+        "ambientIntensity": 0.1
+    },
+    "surfaces": {
+        "spheres": [
+            {
+                "radius": 400,
+                "x": 0,
+                "y": 0,
+                "z": -500,
+                "material": {
+                    "surfaceColor":"64c832",
+                    "specularExponent": 100,
+                    "reflective": false
+                }
+            },
+            {
+                "radius": 1800,
+                "x": 0,
+                "y": 0,
+                "z": -2700,
+                "material": {
+                    "surfaceColor": "9696c8",
+                    "specularExponent": 100,
+                    "reflective": false
+                }
+            }
+        ]
+    },
+    "lights": {
+        "points": [
+            {
+                "x": 0,
+                "y": 500,
+                "z": -50,
+                "intensity": 1,
+                "color":"FFFFFF"
+            },
+            {
+                "x": 0,
+                "y": -500,
+                "z": -50,
+                "intensity": 1,
+                "color":"FFFFFF"
+            }
+        ]
+    }
+}

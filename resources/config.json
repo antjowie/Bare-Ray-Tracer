@@ -1,0 +1,8 @@
+{
+  "fps": 144,
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "windowWidth": 1280,
+  "windowHeight": 720,
+  "maxRenderTime": 0.1
+}

@@ -1,0 +1,130 @@
+{
+    "scene": {
+        "ambientIntensity": 0.2
+    },
+    "surfaces": {
+        "obbs": [
+            {
+                "x": 0,
+                "y": 0,
+                "z": -1,
+                "size": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1
+                },
+                "rotation": {
+                    "x":20,
+                    "y":20
+                },
+                "material": {
+                    "surfaceColor": "a934ad",
+                    "specularExponent": 100
+                }
+            },
+            {
+                "x": 5,
+                "y": 0,
+                "z": -1,
+                "size": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1
+                },
+                "rotation": {
+                    "x":20,
+                    "y":20
+                },
+                "material": {
+                    "surfaceColor": "a934ad",
+                    "specularExponent": 100
+                }
+            },
+            {
+                "x": -5,
+                "y": 0,
+                "z": -1,
+                "size": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1
+                },
+                "rotation": {
+                    "x":20,
+                    "y":20
+                },
+                "material": {
+                    "surfaceColor": "a934ad",
+                    "specularExponent": 100
+                }
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "z": -3,
+                "size": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1
+                },
+                "rotation": {
+                    "x":20,
+                    "y":20
+                },
+                "material": {
+                    "surfaceColor": "a934ad",
+                    "specularExponent": 100
+                }
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "z": -3,
+                "size": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 1
+                },
+                "rotation": {
+                    "x":20,
+                    "y":20
+                },
+                "material": {
+                    "surfaceColor": "a934ad",
+                    "specularExponent": 100
+                }
+            }
+        ],
+        "planes": [
+            {
+                "normal": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                },
+                "width": 0,
+                "height": 0,
+                "depth": 0,
+                "x": 0,
+                "y": -6,
+                "z": 0,
+                "material": {
+                    "surfaceColor": "f4bf42",
+                    "specularExponent": 100000000000000000000,
+                    "texturingIndex":1
+                }
+            }
+        ]
+    },
+    "lights": {
+        "points": [
+            {
+                "x": -30,
+                "y": 80,
+                "z": 0,
+                "intensity": 1,
+                "color": "FFFFFF"
+            }
+        ]
+    }
+}

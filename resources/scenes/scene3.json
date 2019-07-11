@@ -1,0 +1,38 @@
+{
+    "scene": {
+        "ambientIntensity": 0.1
+    },
+    "surfaces": {
+        "spheres": [
+            {
+                "radius": 300,
+                "x": 0,
+                "y": 0,
+                "z": -500,
+                "material": {
+                    "surfaceColor": "64c832",
+                    "specularExponent": 100,
+                    "reflective": false
+                }
+            }
+        ]
+    },
+    "lights": {
+        "points": [
+            {
+                "x": 0,
+                "y": 500,
+                "z": 0,
+                "intensity": 1,
+                "color": "FFFFFF"
+            },
+            {
+                "x": 0,
+                "y": -500,
+                "z": 0,
+                "intensity": 1,
+                "color": "FFFFFF"
+            }
+        ]
+    }
+}

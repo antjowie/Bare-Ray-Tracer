@@ -1,0 +1,86 @@
+{
+    "scene":{
+        "ambientIntensity":0.2
+    },
+    "surfaces": {
+        "spheres": [
+            {
+                "radius": 500,
+                "x": 0,
+                "y": 0,
+                "z": -1000,
+                "material": {
+                    "surfaceColor": "9c9fa3",
+                    "specularExponent": 1000,
+                    "surfaceColorRatio":0.2,
+                    "refractionIndex" : 1.2
+                }
+            },
+            {
+                "radius": 100,
+                "x": -500,
+                "y": 300,
+                "z": -300,
+                "material": {
+                    "surfaceColor": "FF6464",
+                    "specularExponent": 1000,
+                    "reflective": false
+                }
+            },
+            {
+                "radius": 100,
+                "x": 500,
+                "y": 300,
+                "z": -300,
+                "material": {
+                    "surfaceColor": "64FF64",
+                    "specularExponent": 1000,
+                    "reflective": false
+                }
+            },
+            {
+                "radius": 100,
+                "x": 0,
+                "y": -300,
+                "z": -300,
+                "material": {
+                    "surfaceColor":"6464FF",
+                    "specularExponent": 1000,
+                    "reflective": false
+                }
+            }
+        ],
+        "planes":
+        [
+            {
+                "normal": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                },
+                "width": 20000,
+                "height": 2000,
+                "depth": 20000,
+                "x": 0,
+                "y": -500,
+                "z": -500,
+                "material": {
+                    "surfaceColor": "649664",
+                    "specularExponent": 1000,
+                    "reflective": false
+                }
+            }
+        ]
+    },
+    "lights": {
+        "points": [
+            {
+                "x": 0,
+                "y": -250,
+                "z": 0,
+                "intensity": 1,
+                "color": "FFFFFF"
+            }
+        ]
+    }
+}
