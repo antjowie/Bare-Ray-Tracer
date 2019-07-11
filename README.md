@@ -32,5 +32,5 @@ Resources folder contains all of these files.
 - maxRenderTime: The amount in seconds after the window should be updated with the current rendered frame. This allows the user to see the ray tracer progress, as it is quite slow.
 
 ### Scene.json
-When loading a scene, you select the corresponsding number on the numpad. Modifying a scene and adding a scene is thus very simple. If you want to see the options for surfaces, you can look at the [Application.cpp](projects/Application/source/Application.cpp) constructor. The surface types are defined here. The [constructFunctions.cpp](projects/Application/constructFunctions.cpp) defines what data is loaded.
+When loading a scene, you select the corresponsding number on the numpad. Modifying a scene and adding a scene is thus very simple. If you want to see the options for surfaces, you can look at the [Application.cpp](projects/Application/source/Application.cpp) constructor. The surface types are defined here. The [constructFunctions.cpp](projects/Application/source/constructFunctions.cpp) defines what data is loaded.
 
